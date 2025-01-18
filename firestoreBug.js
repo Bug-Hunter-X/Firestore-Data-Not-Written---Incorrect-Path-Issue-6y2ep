@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't being written to Firestore despite seemingly correct code. The `set()` method appeared to execute without errors, but the data remained absent from the database.  The problem stemmed from using an incorrect path in the `set()` method, leading to data being written to a non-existent collection or document.
